@@ -1,0 +1,12 @@
+$primary: red;
+
+@import "../node_modules/bootstarp/scss/functions";
+@import "../node_modules/bootstarp/scss/variables";
+
+$custom_colors: (
+    "newcolor" : gold,
+);
+
+$theme-colors: map-merge($custom_colors, $theme-colors);
+
+@import "../node_modules/bootstarp/scss/bootstrap.scss";

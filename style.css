@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+#home .text-center {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* did not hover */
+#portfolio .card:hover{
+    transition: 1s;
+}
+
+footer {
+    background: #333;
+    color: white;
+}
